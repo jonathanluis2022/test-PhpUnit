@@ -1,0 +1,23 @@
+{
+    "name": "jonathan/tests-php-unit",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jonathanluis2022",
+            "email": "jonathan.luisrodrigues@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "8.5"
+    }
+        
+}
